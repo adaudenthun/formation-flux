@@ -9,7 +9,7 @@
 class Country
 {
 
-    public function getCountryByCodeIso($code_iso)
+    static public function getCountryByCodeIso($code_iso)
     {
 
         switch ($code_iso){
